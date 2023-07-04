@@ -1,0 +1,449 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;     
+ }
+header{  
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color:rgb(231, 231, 247);
+    border-bottom:3px solid rgb(211, 211, 211);
+    z-index:100;
+    position: fixed;
+    width:1150px;
+    font-weight: bold;
+}
+ 
+div ul{
+    list-style-type: none;  
+    display:flex;
+    gap:40px;
+    font-size: x-small;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    color: rgb(10, 123, 131);
+}
+h3{
+    position: absolute;
+    top:150px;
+    left:80px;
+    color: white;
+}
+h2{
+    position: absolute;
+    top:170px;
+    left:80px;
+    color: black;
+    font-size: xx-large;
+ }
+h1{
+    position: absolute;
+    top: 208px;
+    left:80px;
+    color: rgb(10, 123, 131); 
+    font-size: xx-large;
+}
+p{
+    position: absolute;
+    top:290px;
+    left:80px; 
+    font-size: xx-small;
+}
+#btn{
+    position: absolute;
+    top: 330px;
+    left:80px; 
+    font-size: small;
+}
+#p1{
+    position: absolute;
+    top: 320px;
+    left:135px; 
+    font-size: small;
+    padding:5px;
+    color: rgb(10, 123, 131);
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    height:90vh;
+    justify-content: space-between;
+    position: absolute;
+    top: 570px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 10px; 
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    margin: 10px;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 180px;
+    
+}
+.fa-cart-shopping{
+        position: relative;
+        top:0px;
+        left:160px;
+        justify-content: center;
+}
+button{
+    border-style: hidden;
+    border-radius:3px; 
+    font-size: x-small;
+    padding:8px; 
+    color: rgb(50, 123, 99);
+    font-weight: bold;
+    padding: 5px;
+}
+#p3{
+            position: absolute;
+            top: 800px;
+            left: 500px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        #p4{
+            position: absolute;
+            top: 860px;
+            left: 510px;
+            font-size: xx-small;
+        }
+        div img{
+            padding:5px;
+        }
+        .container2{
+            position: absolute;
+            top:900px;
+            background-color:white;
+            width:100%;
+            height: auto;
+            padding:10px 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+#brand{
+    font-size: xx-small;
+}
+.fa-cart-shopping{
+    position:relative;
+    color: rgb(19, 147, 138);
+    justify-content:space-around;
+}
+.fproducts{
+    justify-content:space-between;
+}
+figure{
+    margin: 10px; 
+    padding:5px;
+    width:240px;
+    justify-content: space-around;
+    border-radius:20px;
+    height:350px;
+    border: solid rgb(226, 225, 225);   
+}
+.container2 img, .container3 img{
+    border-radius:30px;
+}
+.fa-star{
+    color:rgb(255, 196, 0);
+}
+.fproducts .fa-solid{
+    position:absolute;
+    width:40px;
+    height: 40px;
+    top: 100px;
+    border-radius: 50%;
+    background-color: rgb(126, 223, 216);
+    
+ }
+ #cart{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    align-items: self-end;
+    }
+.banner1{
+    position: absolute;
+    top:1730px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.banner1 h4{
+    position: absolute;
+    top:30px;
+    left: 550px;
+    color: white;
+}
+.banner1 h1{
+    position: absolute;
+    top:70px;
+    left:250px;
+    color: white;
+    font-size: xx-large;
+}
+.banner1 button{
+    position: absolute;
+    top:170px;
+    left:550px;
+    padding: 10px;
+    color:black;
+} 
+.banner2{
+    position: absolute;
+    top:2000px;
+    background-color: white;
+    width: 100%;
+    height:200px;
+    display: flex;
+}
+.banner2 h1{
+    position: absolute;
+    top:0px;
+    left:500px;
+    color: black;
+}
+.banner2 h5{
+    position: absolute;
+    top:70px;
+    left:500px;
+    font-size: xx-small;
+}
+.container3{
+    position: absolute;
+    top:2120px;
+    background-color:white;
+    width:100%;
+    height: auto;
+    padding:10px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container4{
+    position: absolute;
+    top:2930px;
+    background-color: white;
+    width:1100px;
+    height:500px;
+    padding: 20px;
+    display: flex;
+    color: white;
+    }
+#conp1{
+    position: absolute;
+    top: 100px;
+    left:50px;
+    font-size:small;
+    }
+.container4 h1{
+    position: absolute;
+    top:100px;
+    left: 50px;
+    font-size: xx-large;
+    color: white;
+}
+#conp2{
+    position: absolute;
+    top:170px;
+    left: 50px;
+    font-size:small;
+ }
+ .container4 button{
+    position: absolute;
+    top:220px;
+    left: 50px;
+    border: 1px solid white;
+    background-color:transparent;
+    padding: 10px 20px;
+    color:white;
+ }
+  .container4 button:hover{
+    background-color:rgb(28, 158, 128);
+    border-style: hidden;
+  }
+  #butn21:hover{
+    background-color: rgb(28, 158, 128);
+    border-style: hidden;
+  }
+  #conp21{
+    position: absolute;
+    top: 100px;
+    left:680px;
+    font-size:small;
+ }
+ #conh21{
+    position: absolute;
+    top:100px;
+    left:680px;
+    font-size: xx-large;
+    
+ }
+  #conp22{
+    position: absolute;
+    top:170px;
+    left:680px;
+    font-size:small;
+ }
+ #butn21{
+    position: absolute;
+    top:220px;
+    left:680px;
+    border: 1px solid white;
+    background-color:transparent;
+    padding: 10px 20px;
+    color: white;
+ }
+ .container5{
+    position: absolute;
+    top:3300px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    color: white;
+    margin:5px;
+    justify-content:space-around;
+ }
+ .bnimage21 h3{
+    position: absolute;
+    top:80px;
+    left:50px;
+ }
+ .bnimage21 p{
+    position: absolute;
+    top:130px;
+    left:50px;
+    font-size: x-small;
+    color: brown;
+    font-weight: bold;
+ }
+ .bnimage22 h3{
+    position: absolute;
+    top:50px;
+    left:470px;
+ }
+ .bnimage22 p{
+    position: absolute;
+    top:150px;
+    left:470px;
+    font-size: x-small;
+    color: brown;
+    font-weight: bold;
+ }
+.bnimage23 h3{
+    position: absolute;
+    top:70px;
+    left:890px;
+}
+.bnimage23 p{
+    position: absolute;
+    top:120px;
+    left:890px;
+    font-size: x-small;
+    color: brown;
+    font-weight: bold;
+ }
+ .banner3{
+    position: absolute;
+    top:3590px;
+    background-color: rgb(11, 11, 49);
+    width: 100%;
+    height:150px;
+    display: flex;
+    }
+.banner3 img{
+        position: absolute;
+        top:-100px;
+    }
+    .banner3 h3{
+        position: absolute;
+        top: 1px;
+        padding:2px;
+    }
+    .banner3 p{
+        position: absolute;
+        top:60px;
+    padding-left:2px;
+    }
+    .banner3 input{
+        position: absolute;
+        top: 50px;
+        padding: 10px;
+        left: 650px;
+        width:350px;
+    }
+    .banner3 button{
+        position: absolute;
+        top: 50px;
+        padding: 14px;
+        left:950px;
+        border-right: 0cm;
+        background-color:rgb(28, 158, 128);
+        color: white;
+    }
+    .ftr{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        justify-content:space-evenly;
+        position: absolute;
+        top:3740px;
+        background-color:lightgrey;
+        width:100%;
+        height:450px;
+        margin-top: 10px; 
+        padding: 0px 20px;
+        font-size: small;
+    }
+    .ftr a{
+       text-decoration: none;
+       color: rgb(121, 123, 125);
+    }
+    .contact{
+        border-color: rgb(228, 228, 228);
+        border-style:hidden;
+        width:350px;
+        height:300px;
+        justify-content: space-evenly;
+        
+    }
+    .aboutus, .account{
+        border-color: rgb(228, 228, 228); 
+        border-style:hidden;
+        width:150px;
+        height:300px;
+               
+    }
+    .install{
+        border-color: rgb(228, 228, 228); 
+        border-style:hidden;
+        width:350px;
+        height:300px;
+        
+    }
+    .contact h6, #follow{
+        color: rgb(117, 119, 121);
+    }
+    .install img{
+    border-radius: 10px;
+    justify-content: center;
+}
