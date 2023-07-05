@@ -1,0 +1,217 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   width: 100%;     
+}
+h1{
+    font-size: xx-large;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 100px; 
+}
+h2{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+h4{
+    position: absolute;
+    top: 200px;
+    left: 100px; 
+}
+h6{
+    position: absolute;
+    top: 200px;
+    left: 100px; 
+}
+p{
+    position: absolute;
+    top: 200px;
+    left: 100px; 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color:rgb(219, 219, 247);
+}
+nav ul{
+    align-items:center;
+    justify-content: center; 
+    list-style-type: none;  
+    display:flex;
+    gap: 20px;
+}
+ul a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* 
+.container3{
+    position: absolute;
+    top:2500px;
+    background-color:white;
+    width:100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .container4{
+    position: absolute;
+    top:2850px;
+            background-color: white;
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            display: flex;
+            color: white;
+         }
+         #conp1{
+            position: absolute;
+            top: 100px;
+            left:50px;
+            font-size:small;
+         }
+         .container4 h1{
+            position: absolute;
+            top:100px;
+            left: 50px;
+            font-size: xx-large;
+         }
+          #conp2{
+            position: absolute;
+            top:170px;
+            left: 50px;
+            font-size:small;
+         }
+         .container4 button{
+            position: absolute;
+            top:220px;
+            left: 50px;
+            border: 1px solid white;
+            background-color:transparent;
+            padding: 10px 20px;
+            color: white;
+         }
+          .container4 button:hover{
+            background-color: rgb(50, 123, 99) ;
+            border-style: hidden;
+          }
+          #butn21:hover{
+            background-color: rgb(50, 123, 99) ;
+            border-style: hidden;
+          }
+          #conp21{
+            position: absolute;
+            top: 100px;
+            left:680px;
+            font-size:small;
+         }
+         #conh21{
+            position: absolute;
+            top:100px;
+            left:680px;
+            font-size: xx-large;
+         }
+          #conp22{
+            position: absolute;
+            top:170px;
+            left:680px;
+            font-size:small;
+         }
+         #butn21{
+            position: absolute;
+            top:220px;
+            left:680px;
+            border: 1px solid white;
+            background-color:transparent;
+            padding: 10px 20px;
+            color: white;
+         }
+         .container5{
+            position: absolute;
+            top:3200px;
+            background-color: white;
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            display: flex;
+            color: white;
+         }
+         .bnimage21 h3{
+            position: absolute;
+            top:80px;
+            left:50px;
+         }
+         .bnimage21 p{
+            position: absolute;
+            top:130px;
+            left:50px;
+            font-size: x-small;
+            color: brown;
+            font-weight: bold;
+         }
+         .bnimage22 h3{
+            position: absolute;
+            top:50px;
+            left:430px;
+         }
+         .bnimage22 p{
+            position: absolute;
+            top:150px;
+            left:430px;
+            font-size: x-small;
+            color: brown;
+            font-weight: bold;
+         }
+        .banner3{
+            position: absolute;
+            top:3500px;
+            background-color: rgb(11, 11, 49);
+            width: 100%;
+            height: 200px;
+            display: flex;
+            }
+        .banner3 img{
+                position: absolute;
+                top:-100px;
+            }
+            .banner3 h1{
+                position: absolute;
+                padding: 20px;
+            }
+            .banner3 p{
+                position: absolute;
+                top:70px;
+            padding-left:  20px;
+            }
+            .banner3 input{
+                position: absolute;
+                top: 50px;
+                padding: 10px;
+                left: 650px;
+                width: 300px;
+            }
+            .banner3 button{
+                position: absolute;
+                top: 50px;
+                padding: 10px;
+                left: 850px;
+            }
+            .ftr{
+                position: absolute;
+            top:3800px;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            } */
