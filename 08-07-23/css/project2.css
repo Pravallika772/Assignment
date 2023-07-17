@@ -1,0 +1,296 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:lighter;
+    overflow-x: hidden;
+}
+.hdr{
+    background-color: rgb(254, 239, 242);
+}
+.contact{
+    display: flex;
+    gap:30px;
+    padding: 20px 30px;
+    font-size: xx-small;
+    height:20px;
+    margin-left: 80px;
+    }
+.contact div{
+        display: flex;
+        gap: 20px;
+        font-size: x-small;
+        /* padding:px; */
+        margin-left:350px;
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+.hdr1{
+    display: flex;
+    padding-top: 20px;
+}
+.hdr1 img{
+    margin-left:100px;
+}
+.hdr1 ul{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    list-style-type: none;
+    font-size: x-small;
+    padding: 20px;
+}
+.icons{
+    margin-left:80px;
+}
+.container1{
+    position: relative;
+    padding-top: 20px;  
+}
+#ulcol{
+    position: absolute;
+    top:70px;
+    left: 200px;
+}
+#cmpltwmn{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+#fsnhr{
+    position: absolute;
+    top:160px;
+    left:190px;
+}
+#btn1{
+    position: absolute;
+    top:250px;
+    left:230px;
+    padding: 10px;
+    background-color: rgb(245, 112, 112);
+    border-style: none;
+    border-radius:5px;
+    color: white;
+}
+#ban1{
+    position: absolute;
+    top: 20px;
+    left:630px;
+}
+.container2{
+    position: absolute;
+    top:545px;
+    background-color: white;
+    width: 100%;
+    height:200px;
+    padding-top:30px;
+    text-align: center;
+}
+.container3{
+    position: absolute;
+    top:670px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    padding: 0px 80px;
+}
+.card1, .card2, .card3{
+    /* width:400px;
+    padding: none; */
+    width:300px;
+    font-size: x-small;
+    margin:0px 20px;
+    text-align: center;
+}
+.container3 .fa-star{
+    color:red;
+}
+.banner2{
+    position: absolute;
+    top:1300px;
+    background-color: rgb(227, 218, 201);
+    width: 100%;
+    height:250px;
+    padding:20px;
+}
+#btn2{
+    position: absolute;
+    top: 1400px;
+}
+#style{
+    position: absolute;
+    top:10px;
+    left: 700px;
+}
+#discount{
+    position: absolute;
+    top:50px;
+    left: 300px;
+}
+#offer{
+    position: absolute;
+    top:120px;
+    left: 250px;
+}
+#btn2{
+    position: absolute;
+    top:200px;
+    left:300px;
+    background-color:rgb(243, 241, 238);
+}
+.container4{
+    position: absolute;
+    top:1600px;
+    background-color: white;
+    width: 100%;
+    height:200px;
+    padding:20px;
+    text-align: center;
+} 
+.container5{
+    position: absolute;
+    display: flex;
+    top:1700px;
+    background-color: white;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    padding:0px 70px;   
+}
+.popular1, .popular2, .popular3, .popular4{
+    width:250px;
+    font-size: x-small;
+    font-weight: lighter;
+    margin:0px 10px;
+}
+.icon1, .icon2, .icon3, .icon4{
+    width:260px;
+    height:130px;
+    font-size: x-small;
+    text-align: center;
+    border: 1px solid rgb(248, 29, 29);
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin:0px 10px;
+}
+.container5 .fa-eye,.container5 .fa-heart,.container5 .fa-cart-shopping{
+color: blue;
+}
+.container6{
+    position: absolute;
+    display: flex;
+    top:2200px;
+    background-color: white;
+    width: 100%;
+    height:auto;
+    padding:0px 30px;
+    text-align: center;
+    justify-content: center;
+}
+.ban1{
+    position: absolute;
+    top:2360px;
+    background-color: white;
+    width: 100%;
+    height:200px;
+    padding-top:20px;
+    text-align: center;
+}
+.trendingPrdts{
+    position: absolute;
+    display: flex;
+    top:2450px;
+    background-color: white;
+    width: 100%;
+    height:auto;
+    padding:0px 70px;
+    /* text-align: center; */
+    flex-wrap: wrap;   
+}
+.trending1, .trending2, .trending3, .trending4, .trending5, .trending6, .trending7, .trending8{
+    width:250px;
+    font-size: x-small;
+    /* text-align: center; */
+    /* padding-left: 10px; */
+    font-weight: lighter;
+    margin:0px 10px;
+}
+.trendingPrdts .fa-eye,.trendingPrdts .fa-heart,.trendingPrdts .fa-cart-shopping{
+color: blue;
+}
+.ban2{
+    position: absolute;
+    top:3350px;
+    background-color: white;
+    width: 100%;
+    height:200px;
+    text-align: center;
+}
+.fa-message{
+    margin-left:20px;
+}
+.blog{
+    position: absolute;
+    display: flex;
+    top:3420px;
+    background-color: white;
+    width: 100%;
+    height:auto;
+    padding:20px;
+    font-size:xx-small;
+    padding-left:100px;
+}
+.blg1, .blg2, .blg3{
+    width:330px;
+    /* padding:0px 20px;  */
+    /* border: 1px solid black; */
+}
+.ban3{
+    position: absolute;
+    top:3830px;
+    left:-60px;
+    background-color: white;
+    width: 100%;
+    height:200px;
+    padding-top:30px;
+    text-align: center;
+    
+}
+footer{
+    position: absolute;
+    top:4210px;
+    width: 100%;
+    /* height: 500px; */
+    background-color: black;
+    height:400px;
+    color:rgb(168, 167, 167);
+}
+.ftr{    
+    width: 1000px;
+    display: flex;
+    margin-left: 80px;
+    border-bottom: 1px solid rgb(168, 167, 167);
+    height:350px;
+}
+.about, .links, .shopping{
+    width:200px;
+    height:300px;
+    font-size: x-small;
+    padding: 50px 0px;
+}
+.apps{
+    width:350px;
+    height:300px;
+    font-size: x-small;
+    padding: 50px 0px;
+}
+#copyRight{
+    color:rgb(168, 167, 167);
+    text-align: center;
+    font-size: smaller;
+    margin: 0px;
+}
