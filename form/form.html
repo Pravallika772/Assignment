@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div>
+        <nav>
+            <img src="./img/the-boss-baby-png-clipart-522993.png" alt="logo">
+            <h1>Welcome</h1>
+            <div>
+            <button id="btn">login</button>
+            </div>
+        </nav>
+    </div>
+    <div id="bgrnd">
+        
+    </div>
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close"><button id="close">&times;</button></span>
+    <h2>Login Page</h2>
+    <label for="name">Enter Name</label>
+    <input type="text" id="name">
+    <label for="password">Enter Password</label>
+    <input type="password" id="password"><br>
+    <button id="submit" onclick="addTableRow()">submit</button>
+  </div>
+
+
+  <div class="tableInfo">
+     <table id="tableData">
+      <tr>
+       <th>Name</th>
+       <th>Password</th>
+       </tr>
+     </table>
+   </div>
+
+</div>
+<script src="./form.js">
+    
+</script>
+</body>
+</html>
